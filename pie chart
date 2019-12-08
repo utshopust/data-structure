@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+
+sleeping = [4,5,6]
+eating = [1,1,2]
+playing = [2,2,2]
+
+slices = [3,4,5]
+activities = ['Sleeping', 'Eating', 'Playing']
+cols = ['r', 'm', 'k']
+
+plt.pie(slices, labels=activities, colors = cols)
+
+plt.show()
