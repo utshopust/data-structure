@@ -1,0 +1,11 @@
+mylist = [1,2,3,4,5,6,7,8,9,10]
+
+total = 0
+
+for num in mylist:
+    total = total + num
+print(total)
+
+mystring = 'Hello World'
+for word in mystring:
+    print(word)
